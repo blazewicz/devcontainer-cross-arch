@@ -1,0 +1,17 @@
+{
+	"name": "Python 3 (amd64)",
+
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	"runArgs": ["--platform=linux/amd64" ],
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens"
+			]
+		}
+	}
+}
